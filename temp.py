@@ -1,6 +1,6 @@
 my_var = [1, 2, 3]
 
-my_int: int = "123"
+my_int: int = 123
 
 my_str: str = "abc"
 
@@ -13,5 +13,3 @@ my_dict: dict[str, int] = {"a": 1, "b": 2, "c": 3}
 
 
 or_type_list: list[str | int] = ["a", 1, "b", 2, "c", False, 123]
-
-
